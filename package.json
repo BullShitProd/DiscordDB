@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "build": "tsc --outDir dist"
+    "buid": "tsc --outDir dist",
+    "test": " vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "@types/node": "^24.10.1",
     "eslint": "^9.39.1",
     "jiti": "^2.6.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
   }
 }
