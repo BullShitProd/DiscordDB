@@ -1,0 +1,22 @@
+{
+  "name": "discord.db",
+  "version": "1.0.0",
+  "description": "Discord as a database",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "build": "tsc --outDir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.24.0",
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}
